@@ -17,11 +17,15 @@
                 
                 <tbody>
                     <tr>
-                        <td></td>
+                        <td><input type="submit" value="Click here to add Students" name="add_students" /></td>
                         <td></td>
                     </tr>
                     <tr>
+                        <td><input type="submit" value="Click here to add Courses" name="add_courses" /></td>
                         <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Click here to add Professor" name="add_professor" /></td>
                         <td></td>
                     </tr>
                 </tbody>
