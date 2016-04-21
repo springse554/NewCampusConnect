@@ -23,6 +23,11 @@ public class Student implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private double studentID;
+    private String studentName;
+    private String studentEmailID;
+    private String studentLevel;
+    
     public Long getId() {
         return id;
     }
@@ -54,6 +59,38 @@ public class Student implements Serializable {
     @Override
     public String toString() {
         return "se.project.campusconnect.student.Student[ id=" + id + " ]";
+    }
+
+    public double getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(double studentID) {
+        this.studentID = studentID;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getStudentEmailID() {
+        return studentEmailID;
+    }
+
+    public void setStudentEmailID(String studentEmailID) {
+        this.studentEmailID = studentEmailID;
+    }
+
+    public String getStudentLevel() {
+        return studentLevel;
+    }
+
+    public void setStudentLevel(String studentLevel) {
+        this.studentLevel = studentLevel;
     }
     
 }
